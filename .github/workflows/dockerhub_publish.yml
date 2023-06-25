@@ -1,0 +1,28 @@
+name: dockerhub-image-publish
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Login to DockerHub
+        uses: docker/login-action@v1
+        with:
+          username: ${{secrets.DOCKERHUB_USER_NAME}}
+          password: ${{secrets.DOCKERHUB_ACCESS_TOKEN}}
+
+      - name: Docker Build AND Publish to Docker Hub
+        env:
+          user_name: harmonica2023
+          repository_name: harmonica-api
+        run: |
+          docker build -t $repository_name .
+          docker tag $repository_name:latest $user_name/$repository_name:latest
+          docker push $user_name/$repository_name:latest
