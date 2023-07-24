@@ -1,0 +1,5 @@
+api-url: https://functions.us-ashburn-1.oraclecloud.com
+oracle.compartment-id: ocid1.tenancy.oc1..aaaaaaaagkmgmjlchsvkyk2xfuvr5hhlqklr5ppah66n6k47z2dy7xn2wjuq
+oracle.profile: DEFAULT
+provider: oracle
+registry: iad.ocir.io/idhxkx7uajar/test
