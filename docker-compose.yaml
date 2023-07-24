@@ -4,3 +4,7 @@ services:
     build: .
     ports:
       - "80:80"
+    volumes:
+      - ./oci-cli-res:/root/.oci
+    environment:
+      - DOCKER_PWD=dlyUxuZ3(>2MEk0(XtKp

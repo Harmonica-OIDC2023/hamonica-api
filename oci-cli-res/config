@@ -1,0 +1,6 @@
+[DEFAULT]
+user=ocid1.user.oc1..aaaaaaaatldijtsof5u6slgk6amlzyb52htck3feowyyepyzarwnlvtpyi4q
+fingerprint=72:24:49:a9:b6:3c:99:b5:0c:ff:05:37:f0:a3:9c:23
+key_file=/root/.oci/ryann3-oci.pem
+tenancy=ocid1.tenancy.oc1..aaaaaaaagkmgmjlchsvkyk2xfuvr5hhlqklr5ppah66n6k47z2dy7xn2wjuq
+region=us-ashburn-1
