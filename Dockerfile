@@ -22,7 +22,7 @@ RUN pip install --upgrade pip
 RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 
 # api server
-COPY ./app /app/app
+COPY ./ /app
 EXPOSE 80
 
 # bootstrap
