@@ -1,0 +1,11 @@
+version: "1"
+services:
+  test:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./oci-cli-res:/root/.oci
+      - ./oci-fn-res:/root/.fn
+    environment:
+      - DOCKER_PWD=dlyUxuZ3(>2MEk0(XtKp
