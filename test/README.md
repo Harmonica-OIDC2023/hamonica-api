@@ -67,6 +67,7 @@ oci fn function get --function-id "ocid1.fnfunc.oc1.iad.aaaaaaaarfg2a56kg252optr
 
 1. default: oci 계정과 잘 연동되었는지
 2. docker logged-in: docker의 oci 계정에 로그인이 잘 되었는지
+3. fn deploy가 되는지
 
 ### Default
 
@@ -106,4 +107,12 @@ harmonica-api-test-1  |
 harmonica-api-test-1  | **Login Succeeded**
 harmonica-api-test-1  | INFO:     Will watch for changes in these directories: ['/app']
 ...
+```
+
+### fn deploy
+
+```bash
+# fn init --runtime python my-func
+cd /root/my-func
+service docker start && fn deploy --app test-cli
 ```
