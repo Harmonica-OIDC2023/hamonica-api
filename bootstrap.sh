@@ -7,7 +7,7 @@ chmod 600 /root/.oci/*
 curl -LSs https://raw.githubusercontent.com/fnproject/cli/master/install | sh
 
 # config oci docker login
-docker login -u 'idhxkx7uajar/ryann3@sookmyung.ac.kr' iad.ocir.io -p $DOCKER_PWD
+docker login -u 'idzrfcii0n3e/rmaskdus0208@gmail.com' iad.ocir.io -p $DOCKER_PWD
 
 # config kubectl
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/arm64/kubectl"

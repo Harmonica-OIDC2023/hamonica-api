@@ -11,4 +11,4 @@ services:
       - ~/.kube/config:/root/.kube/config
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
-      - DOCKER_PWD=dlyUxuZ3(>2MEk0(XtKp
+      - DOCKER_PWD=]KeB#z2Z[tsgZiMa3isq
