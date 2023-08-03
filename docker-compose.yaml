@@ -10,5 +10,6 @@ services:
       - ./my-func:/root/my-func
       - ~/.kube/config:/root/.kube/config
       - /var/run/docker.sock:/var/run/docker.sock
+      - ./oci-cli:/root/oci-cli
     environment:
-      - DOCKER_PWD=dlyUxuZ3(>2MEk0(XtKp
+      - DOCKER_PWD=]KeB#z2Z[tsgZiMa3isq

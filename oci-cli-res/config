@@ -1,6 +1,6 @@
 [DEFAULT]
-user=ocid1.user.oc1..aaaaaaaatldijtsof5u6slgk6amlzyb52htck3feowyyepyzarwnlvtpyi4q
-fingerprint=72:24:49:a9:b6:3c:99:b5:0c:ff:05:37:f0:a3:9c:23
-key_file=/root/.oci/ryann3-oci.pem
-tenancy=ocid1.tenancy.oc1..aaaaaaaagkmgmjlchsvkyk2xfuvr5hhlqklr5ppah66n6k47z2dy7xn2wjuq
+user=ocid1.user.oc1..aaaaaaaajugeinuhwrqw5eksf7dhfoldp2vzhaibd7m6iptwe3ncypp4lywq
+fingerprint=f2:46:37:31:b1:7d:ed:c7:dc:7a:f6:3d:fe:67:3c:00
+tenancy=ocid1.tenancy.oc1..aaaaaaaaxaut52vhoboa3dsy7vzwtszofw4wwb32dmvxl7wxgvdtr47evc5a
 region=us-ashburn-1
+key_file=/root/.oci/harmonica2023-oci.pem
