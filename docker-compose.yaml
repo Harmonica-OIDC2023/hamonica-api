@@ -13,3 +13,5 @@ services:
       - ./oci-cli:/root/oci-cli
     environment:
       - DOCKER_PWD=]KeB#z2Z[tsgZiMa3isq
+      - DOCKER_REGISTRY=idzrfcii0n3e
+      - OCI_EMAIL=rmaskdus0208@gmail.com
