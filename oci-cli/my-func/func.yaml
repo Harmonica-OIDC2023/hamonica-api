@@ -1,5 +1,5 @@
 schema_version: 20180708
-name: product-store-operations-python
+name: harmonica-func
 version: 0.0.48
 runtime: python
 build_image: fnproject/python:3.9-dev
