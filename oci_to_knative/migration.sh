@@ -14,4 +14,4 @@ kubectl create secret docker-registry container-registry \
 
 kubectl patch serviceaccount default -p "{\"imagePullSecrets\": [{\"name\": \"container-registry\"}]}"
 
-func deploy -p $FUNCTION_NAME -r iad.ocir.io/$TENANCY_NAMESPACE
+func deploy -p /app/knative_to_oci/$FUNCTION_NAME -r iad.ocir.io/$TENANCY_NAMESPACE
