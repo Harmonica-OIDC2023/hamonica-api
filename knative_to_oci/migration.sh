@@ -13,4 +13,4 @@ oci fn application create -c $COMPARTMENT_ID \
                         --display-name $FNAPP_NAME \
                         --subnet-ids '["'"${SUBNET_ID}"'"]'
 
-fn deploy --working-dir $FUNCTION_NAME --app $FNAPP_NAME
+fn deploy --working-dir /app/oci_to_knative/$FUNCTION_NAME --app $FNAPP_NAME
