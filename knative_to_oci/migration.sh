@@ -15,4 +15,4 @@ oci fn application create -c $COMPARTMENT_ID \
 
 cd $FUNCTION_NAME
 
-fn deploy --app $FUNCTION_NAME
+fn deploy --app $FNAPP_NAME
