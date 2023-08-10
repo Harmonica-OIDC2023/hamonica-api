@@ -1,13 +1,14 @@
 from fastapi import Request, Response
-from starlette.middleware.base import RequestResponseEndpoint
-from starlette.middleware.base import BaseHTTPMiddleware
+from starlette.middleware.base import BaseHTTPMiddleware, RequestResponseEndpoint
 
 
 class SealAPIMiddleware(BaseHTTPMiddleware):
-    async def dispatch(self, request: Request, call_next: RequestResponseEndpoint) -> Response:
-        #TODO: Currently in development for logging system.
+    async def dispatch(
+        self, request: Request, call_next: RequestResponseEndpoint
+    ) -> Response:
+        # TODO: Currently in development for logging system.
         res = await call_next(request)
-        if res.headers.get('content-type') == 'application/json':
+        if res.headers.get("content-type") == "application/json":
             return res
         return res
 
