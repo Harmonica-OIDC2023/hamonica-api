@@ -7,7 +7,6 @@ services:
     volumes:
       - ./oci-cli-res:/root/.oci
       - ./oci-fn-res:/root/.fn
-      - ./my-func:/root/my-func
       - ~/.kube/config:/root/.kube/config
       - /var/run/docker.sock:/var/run/docker.sock
       - ./oci-cli:/root/oci-cli
