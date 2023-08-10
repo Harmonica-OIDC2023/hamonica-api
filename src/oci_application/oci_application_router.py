@@ -19,9 +19,6 @@ async def create_oci_application(
         compartment_id=create_oci_application_dto.compartment_id,
         fnapp_name=create_oci_application_dto.fnapp_name,
         subnet_id=create_oci_application_dto.subnet_id,
-        ords_base_url=create_oci_application_dto.ords_base_url,
-        db_user_secret_ocid=create_oci_application_dto.db_user_secret_ocid,
-        db_password_secret_ocid=create_oci_application_dto.db_password_secret_ocid,
     )
 
 
